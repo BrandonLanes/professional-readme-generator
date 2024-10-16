@@ -1,10 +1,10 @@
-# <project thing>
+# <rawr>
 
 ## Description
 
-makes readmes
+rawr
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -15,11 +15,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-very easily
+rawr
 
 ## Usage
 
-making readmes
+rawr
 
 To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -29,11 +29,11 @@ To add a screenshot, create an 'assets/images' folder in your repository and upl
 
 ## Credits
 
-none
+rawr
 
 ## License
 
-all
+MIT
 
 ---
 
@@ -43,16 +43,16 @@ all
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-some
+rawr
 
 ## Features
 
-does cool stuff
+rawr
 
 ## How to Contribute
 
-just ask nicely
+rawr
 
 ## Tests
 
-swiftly
+rawr

@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import {renderLicenseBadge} from './utils/generateMarkdown.js';
 
 const generateMarkdown = ({ title, description, installation, usage, credits, license, badges, features, contribute, tests }) =>
 `# <${title}>
@@ -9,7 +10,7 @@ const generateMarkdown = ({ title, description, installation, usage, credits, li
 
 ${description}
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -90,9 +91,10 @@ inquirer.prompt([
         message: 'Please list your collaborators.',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Please list the licenses of your project.',
+        choices: ['Apache', 'MIT', 'IBM'],
     },
     {
         type: 'input',

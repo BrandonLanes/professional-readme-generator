@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // must be 3 licenses, any 3
-function renderLicenseBadge(license) {
+export function renderLicenseBadge(license) {
   if (!license) {
   return '';
   }
