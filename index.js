@@ -2,7 +2,7 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 
-const generateHTML = ({ title, description, installation, usage, credits, license, badges, features, contribute, tests }) =>
+const generateMarkdown = ({ title, description, installation, usage, credits, license, badges, features, contribute, tests }) =>
 `# <${title}>
 
 ## Description
@@ -116,10 +116,10 @@ inquirer.prompt([
     },
 ])
 .then((answers) => {
-    const htmlPageContent = generateHTML(answers);
+    const markdownPageContent = generateMarkdown(answers);
 
-    fs.writeFile('index.html', htmlPageContent, (err) =>
-        err ? console.log(err) : console.log('Successfully created index.html!')
+    fs.writeFile('README.md', markdownPageContent, (err) =>
+        err ? console.log(err) : console.log('Successfully created README.md!')
     );
 });
 
