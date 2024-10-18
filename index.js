@@ -1,7 +1,9 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
-import {renderLicenseBadge} from './utils/generateMarkdown.js';
+import { renderLicenseBadge } from './utils/generateMarkdown.js'; 
+import { renderLicenseLink } from './utils/generateMarkdown.js';
+import { renderLicenseSection } from './utils/generateMarkdown.js';
 
 const generateMarkdown = ({ title, description, installation, usage, credits, license, badges, features, contribute, tests }) =>
 `# <${title}>
@@ -40,6 +42,9 @@ ${credits}
 ## License
 
 ${license}
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}
+${renderLicenseSection(license)}
 
 ---
 

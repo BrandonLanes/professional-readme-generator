@@ -1,8 +1,8 @@
-# <rawr>
+# <Readme Generator>
 
 ## Description
 
-rawr
+Creates Readmes
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-rawr
+Very carefully
 
 ## Usage
 
-rawr
+Making readmes
 
 To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -29,11 +29,15 @@ To add a screenshot, create an 'assets/images' folder in your repository and upl
 
 ## Credits
 
-rawr
+me
 
 ## License
 
 MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+(https://opensource.org/licenses/MIT)
+## License
+  This project is licensed under the [MIT]((https://opensource.org/licenses/MIT)).
 
 ---
 
@@ -43,16 +47,16 @@ MIT
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-rawr
+asldkfj
 
 ## Features
 
-rawr
+Makes readmes
 
 ## How to Contribute
 
-rawr
+Hit me up
 
 ## Tests
 
-rawr
+Just do it
